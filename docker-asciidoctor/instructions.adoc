@@ -1,4 +1,4 @@
-# Instructions
+= Instructions
 
 The parent document containing the instructions to configure github and travis-ci is available http://mgreau.com/posts/2016/03/28/asciidoc-to-gh-pages-with-travis-ci-docker-asciidoctor.html
 [here].  
