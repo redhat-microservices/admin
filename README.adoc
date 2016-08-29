@@ -1,6 +1,6 @@
-# Admin
+= Admin
 
-# Objectives
+== Objectives
 
 * Centralize the information (= cartography) about "referenced/certified" Integration use case/poc.
 * Describe the procedure(s) to follow to :
