@@ -3,6 +3,10 @@
 == Objectives
 
 * Centralize the information (= cartography) about "quickstarts/hands on lab" available to promote, educate our users around the   Microservices hype.
+* Define the required vocabularity and maintain it to speak the Microservices language
+* Cover & design the patterns required to develop a Microservices Architecture & Project
+* Highlight the concepts inherant to a Microservices vision (Green & Brownfield)
+
 * Describe the procedure(s) to follow to :
 ** Submit Project's information : Name, description, tags = categories, owner, link to the repo : github, bitbucket, ..., project where it has been designed/realized and /or implemented, objectives & requirements
 ** Request to "upload" Project's with also the cartography of the project
