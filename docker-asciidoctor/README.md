@@ -1,13 +1,12 @@
 # Instructions
 
-Parent document containing the instrcutions to configure github and travis-ci : http://mgreau.com/posts/2016/03/28/asciidoc-to-gh-pages-with-travis-ci-docker-asciidoctor.html
-As the dockerfile of the existing asciidoctor image contains errors, a new image has been defined here.
+The parent document containing the instructions to configure github and travis-ci is available http://mgreau.com/posts/2016/03/28/asciidoc-to-gh-pages-with-travis-ci-docker-asciidoctor.html
+[here].  
+As the dockerfile of the current asciidoctor [image] contains errors, a new image has been defined till they fix their errors - 29/08/2016.
 
-Open a terminal within this project and execute these commands to clone the project containing the lab :
+Here are the steps to follow to create this new image and push it.
 
-    git clone https://github.com/gastaldi/lab-forge-swarm-keycloak.git
-
-Create the Docker container
+Create the Docker container using docker-machine & VirtualBox on MacOS
 
     docker-machine create --driver=virtualbox asciidoctor
     docker-machine env asciidoctor
@@ -17,13 +16,19 @@ Build it
 
     docker build -t cmoulliard/docker-asciidoctor .
     
- Push the newly image to Docker.io 
+Push the newly image to Docker.io 
     
     docker push cmoulliard/docker-asciidoctor
 
 Generate the HTML & PDF
 
 . Locally
+
+Open a terminal and clone the project containing the lab content to generate to HTML / PDF :
+
+    git clone git@github.com:redhat-microservices/lab_swarm_forge-keycloak.git
+
+Run docker 
 
     docker run -it -v /Users/chmoulli/MyProjects/asciidoctor-build/lab-forge-swarm-keycloak:/documents/ cmoulliard/docker-asciidoctor
     
@@ -35,7 +40,9 @@ and then generate the documents
  using a different style
     
     asciidoctor -a stylesheet=$STYLES/foundation.css README.adoc -o README-foundation.html
-    
+   
 . Travis
+   
+NOTE: See the `.travis.yml` file and the build by example running here - https://travis-ci.org/redhat-microservices/lab_swarm_forge-keycloak   
     
     
