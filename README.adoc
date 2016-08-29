@@ -14,3 +14,8 @@
 * Stage incoming Projects for people not having a git, bitbucket repo till we find their final destination
 * Describe the criteria that we will use to accept, refuse Project request
 * Produce documents around the recommnended design/patterns & practices
+
+== Convetion to follow to create a project
+
+Prefix => lab = Hol; quick = quickstarts, … followed by the container target swarm = WildSwarm; EAP= JBoss EAP; fuse= JBoss Fuse; … & finally any keywords (sec= security, sso = single sign on; tool = tooling. 
+So for the project +Hands On Lab+ designed using WildFly Swarm container and using these technical concepts (JBoss Forge as tooling engine, Keycloak as SSO platform to secure the application), we will name it as such +hol_swarm_tool-sso by example+
