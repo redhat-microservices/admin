@@ -17,5 +17,6 @@
 
 == Convetion to follow to create a project
 
-Prefix => lab = Hol; quick = quickstarts, … followed by the container target swarm = WildSwarm; EAP= JBoss EAP; fuse= JBoss Fuse; … & finally any keywords (sec= security, sso = single sign on; tool = tooling. 
+Every git hub project will start with a 3-4 letters prefix  (e.g lab = Hol; quick = quickstarts, … ) followed by the targeted container(e.g. swarm = WildFly Swarm; EAP= JBoss EAP; fuse= JBoss Fuse; sb = SpringBoot) & finally any keywords which will help to better define/describe what the project stands for (sec= security, sso = single sign on; tool = tooling).
+
 So for the project +Hands On Lab+ designed using WildFly Swarm container and using these technical concepts (JBoss Forge as tooling engine, Keycloak as SSO platform to secure the application), we will name it as such +hol_swarm_tool-sso by example+
