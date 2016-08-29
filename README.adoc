@@ -15,7 +15,7 @@
 * Describe the criteria that we will use to accept, refuse Project request
 * Produce documents around the recommnended design/patterns & practices
 
-== Convetion to follow to create a project
+== Convention to follow to create a project
 
 Every git hub project will start with a 3-4 letters prefix  (e.g lab = Hol; quick = quickstarts, … ) followed by the targeted container(e.g. swarm = WildFly Swarm; EAP= JBoss EAP; fuse= JBoss Fuse; sb = SpringBoot) & finally any keywords which will help to better define/describe what the project stands for (sec= security, sso = single sign on; tool = tooling).
 
