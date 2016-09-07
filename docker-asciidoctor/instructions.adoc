@@ -2,7 +2,7 @@
 
 The parent document containing the instructions to configure github and travis-ci is available http://mgreau.com/posts/2016/03/28/asciidoc-to-gh-pages-with-travis-ci-docker-asciidoctor.html
 [here].  
-As the dockerfile of the current asciidoctor [image] contains errors, a new image has been defined till they fix their errors - 29/08/2016.
+As the dockerfile of the current asciidoctor [image] contains errors, a new image has been defined till the project asciidoctor will fix the errors - 29/08/2016.
 
 Here are the steps to follow to create this new image and push it.
 
@@ -30,7 +30,7 @@ Open a terminal and clone the project containing the lab content to generate to 
 
 Run docker 
 
-    docker run -it -v /Users/chmoulli/MyProjects/asciidoctor-build/lab-forge-swarm-keycloak:/documents/ cmoulliard/docker-asciidoctor
+    docker run -it -v /Users/chmoulli/MyProjects/asciidoctor-build/lab-forge-swarm-keycloak:/documents/ cmoulliard/docker-asciidoctor:0.1
     
 and then generate the documents
     
