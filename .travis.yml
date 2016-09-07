@@ -28,8 +28,8 @@ after_failure:
   - docker logs asciidoc-to-pdf
 
 after_success:
-  - cd docs/output ;
-  - chmod -R +x docs/output ; ls -la *.* ;
+  - chmod -R +x docs/output ; cd docs/output ;
+  - ls -la *.* ;
   - git init
   - git config user.name "${GH_USER_NAME}"
   - git config user.email "{GH_USER_EMAIL}"
