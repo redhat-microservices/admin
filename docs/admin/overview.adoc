@@ -1,5 +1,6 @@
 == Objectives
 
 The goals of the Red Hat Microservices organization are multiple as we would like to centralize the information (= cartography) about "quickstarts/hands on lab/demo" available to promote, educate our users around the Microservice hype.
+
 But we would like also to define the required vocabulary and maintain it to speak the Microservices language. Furthermore, we will cover, demystify the patterns needed to develop a Microservices Architecture & Project like
-also the concepts inherant to this vision as; Greenfield, Brownfield, CI/CD ...
+also the concepts inherent to this vision as; Greenfield, Brownfield, CI/CD ...
