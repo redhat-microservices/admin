@@ -30,7 +30,7 @@ Open a terminal and clone the project containing the lab content to generate to 
 
 Run docker 
 
-    docker run -it -v /Users/chmoulli/MyProjects/asciidoctor-build/lab-forge-swarm-keycloak:/documents/ cmoulliard/docker-asciidoctor:0.1
+    docker run -it -v /Users/chmoulli/Google-Drive/REDHAT/RH-GP/Projects/redhat-microservices/lab_swarm_forge-keycloak:/documents/ cmoulliard/docker-asciidoctor:0.1
     
 and then generate the documents
     
