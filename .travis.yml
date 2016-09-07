@@ -9,7 +9,7 @@ services:
   - docker
 
 before_install:
-  - mkdir -p output
+  - mkdir -p docs/output ;
   - docker pull cmoulliard/docker-asciidoctor:0.1
 
 script:
@@ -28,7 +28,7 @@ after_failure:
   - docker logs asciidoc-to-pdf
 
 after_success:
-  - chmod -R +x docs/output ; cd docs/output ;
+  - cd docs/output ;
   - ls -la *.* ;
   - git init
   - git config user.name "${GH_USER_NAME}"
