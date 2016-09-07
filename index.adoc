@@ -10,6 +10,7 @@
 == Admin
 
 include::admin-overview.adoc[]
+
 include::admin-convention.adoc[]
 
 == Inventory
