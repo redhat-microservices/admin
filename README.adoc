@@ -19,10 +19,13 @@
 
 === Technology driven
 
-Every git hub project to be created will be named as such.
-The name will start with a 3-4 letters prefix  (e.g lab = Hol; quick = quickstarts, … ) followed by the targeted container(e.g. swarm = WildFly Swarm; EAP= JBoss EAP; fuse= JBoss Fuse; sb = SpringBoot) & finally any keywords which will help to better define/describe what the project stands for (sec= security, sso = single sign on; tool = tooling).
+Every git hub project to be created will be named following this convention :
 
-So for the project *Hands On Lab* designed using WildFly Swarm container and using these technical concepts (JBoss Forge as tooling engine, Keycloak as SSO platform to secure the application), we will name it as such *hol_swarm_tool-sso*.
+- The name of the project will start with a 3-4 letters prefix  (e.g lab = Hol; quick = quickstarts, … ),
+- Followed by the targeted container (e.g. swarm = WildFly Swarm; eap = JBoss EAP; fuse = JBoss Fuse; sb = SpringBoot) &
+- Finally any keywords which will help to better define/describe what the project stands for (sec= security, sso = single sign on; tool = tooling).
+
+So for the *Hands On Lab* project designed using *WildFly Swarm* as Java EE container and based on these technical concepts JBoss Forge as *tooling engine*, Keycloak as *SSO platform* to secure the application, we will name it as such *hol_swarm_tool-sso*.
 
 === User story based
 
