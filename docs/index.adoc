@@ -9,10 +9,14 @@
 
 == Admin
 
-include::admin-overview.adoc[]
+include::admin/overview.adoc[]
 
-include::admin-convention.adoc[]
+include::admin/convention.adoc[]
 
-== Inventory
+== Inventory of the Microservices projects
 
-TODO
+include::inventory/quickstarts.adoc[]
+
+include::inventory/hol.adoc[]
+
+include::inventory/others.adoc[]
