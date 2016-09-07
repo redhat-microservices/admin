@@ -11,6 +11,8 @@
 
 include::admin/overview.adoc[]
 
+include::admin/contributing.adoc[]
+
 include::admin/convention.adoc[]
 
 == Inventory of the material

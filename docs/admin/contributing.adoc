@@ -1,0 +1,11 @@
+== Contributing
+
+To contribute to this organisation, you can submit your Project's informations or the code in roder to create a new Git projet to host it. You can also keep & maintain your project separately.
+In both cases, here are the information required :
+* Name of the project,
+* Description,
+* Technology involved : Language used, Domain (Middleware, mobile, ...)
+* Tags : categories, keywords describing the project
+* Owner : Author or main contributor of the project
+* Link to the git repository (github, bitbucket, ...) - optional
+

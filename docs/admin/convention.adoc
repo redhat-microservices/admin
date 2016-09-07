@@ -1,4 +1,3 @@
-
 == Convention to follow to create a project
 
 === Technology driven
