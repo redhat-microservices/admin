@@ -13,7 +13,7 @@ include::admin/overview.adoc[]
 
 include::admin/convention.adoc[]
 
-== Inventory of the Microservices projects
+== Inventory of the material
 
 include::inventory/quickstarts.adoc[]
 
