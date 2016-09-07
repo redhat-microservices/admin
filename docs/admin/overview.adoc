@@ -1,4 +1,4 @@
-== Objectives
+=== Objectives
 
 The goals of the Red Hat Microservices organization are multiple as we would like to centralize the information (= cartography) about "quickstarts/hands on lab/demo" available to promote, educate our users around the Microservice hype.
 

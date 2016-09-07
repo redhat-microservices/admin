@@ -1,4 +1,4 @@
-== Others
+=== Others
 
 .Book
 * https://github.com/redhat-developer/microservices-by-example-source[Source of the Christian Posta Book “Microservices”]

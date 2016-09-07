@@ -1,4 +1,4 @@
-== Quickstarts
+=== Quickstarts
 
 .HelloWorld
 * https://github.com/redhat-helloworld-msa/helloworld-msa[Hello World Microservices]
